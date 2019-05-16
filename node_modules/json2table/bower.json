@@ -1,0 +1,25 @@
+{
+  "name": "jsontable",
+  "homepage": "https://github.com/ojengwa/jsontable",
+  "authors": [
+    "Bernard Ojengwa <bernardojengwa@gmail.com>"
+  ],
+  "description": "Dynamically render an HTML table using JSON data.",
+  "main": "dist/jsontable.js",
+  "keywords": [
+    "JSON",
+    "jsontable",
+    "html",
+    "DOM",
+    "table"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ]
+}

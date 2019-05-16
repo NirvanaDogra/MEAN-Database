@@ -1,0 +1,28 @@
+<html>
+<style>
+    input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+   }
+
+   input[type=text]:focus {
+    background-color: lightblue;
+   }
+</style>
+    <title>Update</title>
+    <h1>Enter the value to be updated</h1>
+    <body>
+        <form action="/updateForm" method="GET">
+            Name: <input type=text name=name><br>
+            USN :<input type=text name=USN><br>
+            Branch: <input type=text name=branch><br>
+            Sport: <input type="text" name=sport><br>
+            <input type=submit>
+        </form>
+        <a href="/"><button>Back</button></a>
+    </body>
+</html>
